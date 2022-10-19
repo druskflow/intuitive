@@ -29,3 +29,14 @@ after creation of models, make migrationd
 configure the media folder - allows us to store product images
 
 Admin configuration - adding products to our database
+
+Testing: -> Models
+It helps to check for errors, we won't test all the different elements. It is an important step to improve the wuality of your application
+Unittest is a standard python library i.e Lib/unittest__init__.py.
+It's nmot always easy to know which tests ytou need to run, in the beginning at least.
+Utilize coverage package which scans your files and looks for where tests are required. to visuualize and identify where it is needed.
+>> pip install coverage
+>> coverage run manage.py test
+>> coverage report    //gives an overview
+>> coverage run --omit='*/venv/*' manage.py test // gives a more structuresd report without the venv files
+>> coverage html  //creates a new htmlcov folder
