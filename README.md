@@ -26,9 +26,9 @@ after creation of models, make migrationd
 >> py manage.py makemigrations
 >> py manage.py migrate
 
-configure the media folder - allows us to store product images
+configure the media folder - allows us to store product images that h
 
-Admin configuration - adding products to our database
+Admin configuration - adding products to our database.
 
 Testing: -> Models
 It helps to check for errors, we won't test all the different elements. It is an important step to improve the wuality of your application
