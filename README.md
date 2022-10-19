@@ -26,7 +26,7 @@ after creation of models, make migrationd
 >> py manage.py makemigrations
 >> py manage.py migrate
 
-configure the media folder - allows us to store product images that h
+configure the media folder - allows us to store product images that have been added.
 
 Admin configuration - adding products to our database.
 
