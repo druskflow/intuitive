@@ -12,4 +12,13 @@ class TestCategoriesModel(TestCase):
         Test Category model data insertion/types/field attributes
         """
         data = self.data1
-        self.assetTrue(isinstance(data, Category)) #if data fits or is the rioght type, it should return true. The test runs successfully
+        self.assertTrue(isinstance(data, Category)) #if data fits or is the rioght type, it should return true. The test runs successfully
+
+    def test_category_model_entry(self):
+        """
+        Test Category model return name
+        """
+        data = self.data1
+        self.assertEqual(str(data), 'django')
+
+    
