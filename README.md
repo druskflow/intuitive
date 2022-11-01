@@ -40,3 +40,7 @@ Utilize coverage package which scans your files and looks for where tests are re
 >> coverage report    //gives an overview
 >> coverage run --omit='*/venv/*' manage.py test // gives a more structuresd report without the venv files
 >> coverage html  //creates a new htmlcov folder
+
+Django provides test cases with the python standard library
+We'll create a seperate data for our tests
+The fields addedmust match our models
