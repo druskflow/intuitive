@@ -44,3 +44,5 @@ Utilize coverage package which scans your files and looks for where tests are re
 Django provides test cases with the python standard library
 We'll create a seperate data for our tests
 The fields addedmust match our models
+
+Testing product models will be a bit complicated as it has a lot more fields. We need to ensure all the mandatory fields required to create a record
